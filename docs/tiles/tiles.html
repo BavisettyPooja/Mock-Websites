@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tiles Shop</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"  charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="tiles.css">
+    </head>
+    <body>
+        <!-- navbar -->
+        <div class="navbar navbar-default navbar-fixed-top navbar-dark bg-dark" role="navigation">
+            <div class="container-fluid nav-box">
+                <div class="navbar-header"> <a class="navbar-brand" href='#'>BLEH</a></div>
+                <div class="nav-items">
+                    <a href='#' class="nav-item" style="margin-left:0;">Home</a>
+                    <a href='#' class="nav-item">Floor Tiles</a>
+                    <a href='#' class="nav-item">Kitchen Tiles</a>
+                    <a href='#' class="nav-item">Wall Tiles</a>
+                    <a href='#' class="nav-item">Washroom Tiles</a>
+                    <a href='#' class="nav-item">Other</a>   
+                </div>
+                  <div class="side">
+                        <a href='#'><img src="cart.png" class="cart"  style="margin-left: 0;"></a>
+                        <a href='#' ><img src="heart.png" class="cart"></a>
+                        <a href='#' ><img src="loupe.png" class="cart"  style="margin-right:13px;"></a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse"><span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav side-menu">
+                        <li><a href='#'>Home</a></li>
+                            <li><a href='#'>All Tiles</a></li>
+                                <li><a href='#'>Other</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- front -->
+        <div>
+          <!-- <img src="front.jpg" id="front-img" class="img-responsive img-fluid"> -->
+          <div  id="front-img" class="img-responsive img-fluid"></div>
+          <div id="front-texts">
+          <p class="front-txt front-brand">BLEH</p>
+          <a href="" type="submit" class="front-btn front-txt">SHOP ALL TILES</a>
+        </div>
+        </div>
+        <!-- features -->
+        <div>
+            <h1 class="features-txt">Tile shopping, made simple</h1>
+            <p class="features-txt">We make tile shopping easy with curated designs, free samples and premium tiles delivered to your door.</p>
+            <div class="features">
+            <div class="feature">
+                <img src="sample.png" class="feature-img">
+                <div>
+                <p class="feature-heading">Your Perfect Samples</p>
+                <p class="feature-txt">With our free and speedy sample service, it's super easy to find the tile you'll love.</p>
+            </div></div>
+            <div class="feature">
+                <img src="advice.png" class="feature-img">
+                <div>
+                <p class="feature-heading">Friendly Advice</p>
+                <p class="feature-txt">Need some help? Our awesome customer service team can answer any of your tile questions.</p>
+            </div></div>
+            <div class="feature">
+                <img src="money.png" class="feature-img">
+                <div>
+                <p class="feature-heading">Better For Less</p>
+                <p class="feature-txt">We handpick our tiles to make sure you'll get better tiles, at better prices, than you'll find elsewhere.</p>
+            </div></div>
+        </div>
+        </div>
+        <!-- trending -->
+        <div>
+            <h1 class="headings">Top Trending Tiles</h1>
+            <div class="cards">
+            <div class="card" style="width: 18rem;">
+                <img src="abbey.jpg" class="card-img-top" onmouseover="hover(this);" onmouseout="unhover(this);" >
+                <div class="card-body">
+                  <p class="card-text">Abbey Decor Black</p>
+                  <p class="card-text">Cost per box</p> 
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="marble.jpg" class="card-img-top"  onmouseover="hover(this);" onmouseout="unhover(this);">
+                <div class="card-body">
+                  <p class="card-text">Antique Marble</p>
+                  <p class="card-text">Cost per box</p> 
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="pink.jpg" class="card-img-top"  onmouseover="hover(this);" onmouseout="unhover(this);">
+                <div class="card-body">
+                  <p class="card-text">Palm Springs Pink</p>
+                  <p class="card-text">Cost per box</p> 
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="arlo.jpg" class="card-img-top"  onmouseover="hover(this);" onmouseout="unhover(this);">
+                <div class="card-body">
+                  <p class="card-text">Arlo Light</p>
+                  <p class="card-text">Cost per box</p> 
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- inspirtaion -->
+        <div>
+            <h1 class="headings">Discover tips and tiling inspiration</h1>
+            <div class="carousel"
+            data-flickity='{ "wrapAround": true }'>
+            <div class="carousel-cell"></div>
+            <div class="carousel-cell"></div>
+            <div class="carousel-cell"></div>
+            <div class="carousel-cell"></div>
+            <div class="carousel-cell"></div>
+            </div>
+
+        </div>
+        <!-- ur match -->
+        <div class="match">
+            <div class="img-fluid match-img"></div>
+            <div class="match-texts">
+            <h1 class="match-heading">Find your match,
+                for free</h1>
+            <p class="match-txt match-text">Be inspired with our free sample service.
+                    Your home will thank you.</p>
+            <button class="match-btn match-text">Learn More</button>
+                </div>
+        </div>
+        <!-- footer -->
+        <footer class="section bg-footer bg-dark">
+          <div class="container">
+              <div class="footer-cols">
+                      <div class="footer-col" style="margin-left: 0;">
+                          <h6 class="footer-heading text-uppercase text-white">Information</h6>
+                          <ul class="list-unstyled footer-link mt-4">
+                              <li><a href="">Pages</a></li>
+                              <li><a href="">Our Team</a></li>
+                              <li><a href="">Feuchers</a></li>
+                              <li><a href="">Pricing</a></li>
+                          </ul>
+                      </div>
+                  
+                      <div class="footer-col">
+                          <h6 class="footer-heading text-uppercase text-white">Need Help?</h6>
+                          <ul class="list-unstyled footer-link mt-4">
+                              <li><a href="">Sign Up </a></li>
+                              <li><a href="">Login</a></li>
+                              <li><a href="">Terms of Services</a></li>
+                              <li><a href="">Privacy Policy</a></li>
+                          </ul>
+                      </div>
+            
+                      <div class="footer-col">
+                          <h6 class="footer-heading text-uppercase text-white">Contact Us</h6>
+                          <p class="contact-info mt-4">Contact us if need help withanything</p>
+                          <p class="contact-info">+01 123-456-7890</p>
+                          <div class="mt-5">
+                              <ul class="list-inline">
+                                  <li class="list-inline-item"><a href="#"><img class="insta social-img" src="insta.png"></a></li>
+                                  <li class="list-inline-item"><a href="#"><img class="facebook social-img" src="facebook.png"></a></li>
+                                  <li class="list-inline-item"><a href="#"><img class="google social-img" src="gmail.png"></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="text-center mt-5">
+              <p class="footer-alt mb-0 f-14">Made by me</p>
+          </div>
+      </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <script src="tiles.js"></script>
+    </body>
+</html>
