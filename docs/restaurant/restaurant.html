@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Restaurant</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"  charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="restaurant.css">
+    </head>
+    <body>
+        <!-- navbar -->
+        <div class="navbar navbar-default navbar-fixed-top navbar-dark bg-dark" role="navigation">
+            <div class="container-fluid nav-box">
+                <div class="navbar-header"> <a class="navbar-brand" href='#'>ABC</a></div>
+                <div class="nav-items">
+                    <a href='#' class="nav-item" style="margin-left:0;">Home</a>
+                    <a href='#' class="nav-item">Menu</a>
+                    <a href='#' class="nav-item">Order Online</a> 
+                </div>
+                  <div class="side">
+                        <a href='#'><img src="cart.png" class="cart"  style="margin-left: 0;"></a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse"><span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav side-menu">
+                        <li><a href='#'>Home</a></li>
+                            <li><a href='#'>Menu</a></li>
+                                <li><a href='#'>Order Online</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- front -->
+        <div class="front">
+            <video autoplay muted loop id="front-bg">
+                <source src="front1.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+              
+              <div class="front-content">
+                <img src="logo.svg" class="front-img img-fluid"> 
+                
+            </div>
+        </div>
+        <section class="bg">
+        <!-- daily special -->
+        <div class="special">
+            <div class="daily-img"></div>
+            <div class="daily-txt">
+               <h2>DAILY SPECIAL</h2> 
+                <h5> We serve a new special every day.</h5>
+                    <p> FOLLOW US ON FACEBOOK TO SEE OUR DAILY SPECIALS IN YOUR “FEED”!</p>
+                    <a type="button"><img src="facebook.png" id="daily-btn"></a>
+            </div>
+        </div>
+        <!-- 3cards -->
+        <div class="cards">
+            <div class="card card-content" style="margin-left: 0;">
+                <img src="free-high-fives.svg" class="card-img">
+               <div class="card-text">
+                <p class="card-txt">Things get hoppin' around lunchtime. We suggest checking out our menu before you come in.</p>
+                <a class="card-btn" href="#">SEE MENU</a>
+            </div></div>
+            <div class="card card-content">
+                <img src="roll-up-your-sleeves.svg" class="card-img">
+               <div class="card-text">
+                <p class="card-txt">Our street-style food is bold, imaginative, and deliciously messy. Grab some napkins and eat up.</p>
+                <a class="card-btn" href="#">SEE LOCATION</a>
+            </div></div>
+            <div class="card card-content">
+                <img src="real-local-food.svg" class="card-img">
+               <div class="card-text">
+                <p class="card-txt">We use locally sourced ingredients, avoid preservatives whenever possible, and offer vegan-friendly dishes.</p>
+                <a class="card-btn" href="#">ABOUT US</a>
+            </div></div>
+        </div>
+    </section>
+        <!-- footer -->
+        <footer class="footer-section">
+            <div class="container">
+                <div class="footer-cta pt-5">
+                            <div class="single-cta">
+                                <img src="place.png" class="foo-img">
+                                <div class="cta-text">
+                                    <h4>Find us</h4>
+                                    <span>1611 Farnam Street
+                                        Omaha, Nebraska 68106
+                                    </span>
+                                </div>
+                            </div>                        
+                            <div class="single-cta">
+                                <img src="phone.png" class="foo-img">
+                                <div class="cta-text">
+                                    <h4>Call us</h4>
+                                    <span>9876543210</span>
+                                </div>
+                            </div>                      
+                            <div class="single-cta">
+                                <img src="mail.png" class="foo-img">
+                                <div class="cta-text">
+                                    <h4>Mail us</h4>
+                                    <span>mail@info.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>               
+                <div class="footer-content pt-5">
+                            <div class="footer-widget">
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="logo.svg" class="img-fluid" alt="logo"></a>
+                                </div>
+                                <div class="footer-text">
+                                    <p>LUNCH: 11 A.M. to 3 P.M., Mon. - Sat.<br>
+                                        DINNER: 5 P.M. to 9 P.M., Thu. - Sat.</p>
+                                </div>                           
+                            </div>                
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Useful Links</h3>                                   
+                                </div>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">Our Services</a></li>                                  
+                                </ul>                               
+                            </div>
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Subscribe</h3>
+                                </div>
+                                <div class="footer-text" >
+                                    <p style="text-align: center;">Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                </div>
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <input type="text" placeholder="Email Address">
+                                        <button><img src="send.png" class="send"></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="copyright-text">
+                                <p>Copyright &copy; 20XX, All Right Reserved</p>
+                            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
